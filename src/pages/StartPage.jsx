@@ -15,6 +15,14 @@ const StartPage = () => (
                 <PageLink link="landingpageone" title="LandingPageOne" />
                 <PageLink link="pricingpageone" title="PricingPageOne" />
                 <PageLink link="pricingpagetwo" title="PricingPageTwo" />
+                <PageLink link="signinpageone" title="SignInPageOne" />
+                <PageLink link="signinpagetwo" title="SignInPageTwo" />
+                <PageLink link="signinpagethree" title="SignInPageThree" />
+                <PageLink link="signinpagefour" title="SignInPageFour" />
+                <PageLink link="signuppageone" title="SignUpPageOne" />
+                <PageLink link="signuppagetwo" title="SignUpPageTwo" />
+                <PageLink link="signuppagethree" title="SignUpPageThree" />
+                <PageLink link="signuppagefour" title="SignUpPageFour" />
             </div>
         </div>
     </div>

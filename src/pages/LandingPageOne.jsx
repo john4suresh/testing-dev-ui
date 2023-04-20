@@ -186,7 +186,7 @@ const features = [
                     <div className="container mx-auto py-10 px-10 lg:px-0">
                         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
                             <div className="w-full md:w-2/3 lg:w-1/2">
-                                <h2 className="text-3xl font-bold text-black dark:text-white">
+                                <h2 className="text-3xl font-bold text-black">
                                     Sign up for our weekly newsletter
                                 </h2>
                                 <p className="mt-4 text-gray-600">
@@ -194,7 +194,7 @@ const features = [
                                     commodo posuere et sit amet ligula.
                                 </p>
                                 <div className="mt-4">
-                                    <p className="font-semibold text-gray-800 dark:text-gray-400">
+                                    <p className="font-semibold text-gray-800">
                                         Trusted by over 100,000+ businesses and individuals
                                     </p>
                                     <div className="mt-2 flex items-center">
@@ -204,7 +204,7 @@ const features = [
                                             ))}
                                         </div>
                                         <span className="ml-2 inline-block">
-                                            <span className="text-sm font-semibold text-gray-800 dark:text-gray-400">
+                                            <span className="text-sm font-semibold text-gray-800">
                                                 4.8/5 . 3420 Reviews
                                             </span>
                                         </span>
@@ -215,17 +215,17 @@ const features = [
                                 <form className="flex lg:justify-center">
                                     <div className="flex w-full max-w-md flex-col space-y-4">
                                         <input
-                                            className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent py-2 px-3 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700 dark:text-gray-50 dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
+                                            className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent py-2 px-3 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                                             type="email"
                                             placeholder="Email"
                                         />
-                                        <button type="button" className="inline-flex h-10 w-full items-center justify-center rounded-md bg-indigo-600 py-2 px-4 text-sm font-medium text-white transition-colors hover:bg-indigo-700 focus:outline-none focus:ring-1 focus:ring-indigo-400 focus:ring-offset-1 active:scale-95 disabled:pointer-events-none disabled:opacity-50 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:hover:text-gray-100 dark:focus:ring-indigo-400 dark:focus:ring-offset-gray-900">
+                                        <button type="button" className="inline-flex h-10 w-full items-center justify-center rounded-md bg-indigo-600 py-2 px-4 text-sm font-medium text-white transition-colors hover:bg-indigo-700 focus:outline-none focus:ring-1 focus:ring-indigo-400 focus:ring-offset-1 active:scale-95 disabled:pointer-events-none disabled:opacity-50">
                                             Subscribe
                                         </button>
                                     </div>
                                 </form>
                                 <p className="mt-2 lg:text-center">
-                                    <span className="text-sm text-gray-600 dark:text-gray-400">
+                                    <span className="text-sm text-gray-600">
                                         By signing up, you agree to our terms of service and privacy policy.
                                     </span>
                                 </p>

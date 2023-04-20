@@ -181,7 +181,7 @@ const filters = ["Design", "Product", "Software Engineering", "Customer Success"
                     <div className="mx-auto flex">
                         <a
                             href="#"
-                            className="mx-1 flex cursor-not-allowed items-center rounded-md border border-gray-400 px-4 py-2 text-gray-500 dark:border-gray-800 dark:text-gray-400"
+                            className="mx-1 flex cursor-not-allowed items-center rounded-md border border-gray-400 px-4 py-2 text-gray-500"
                         >
                             <ArrowLeftIcon className="h-5 w-5" />
                         </a>
@@ -190,7 +190,7 @@ const filters = ["Design", "Product", "Software Engineering", "Customer Success"
                                 <a
                                     key={page}
                                     href="#"
-                                    className="mx-1 flex items-center rounded-md border border-gray-400 px-4 py-2 text-gray-500 hover:scale-105 dark:border-gray-800 dark:text-gray-400"
+                                    className="mx-1 flex items-center rounded-md border border-gray-400 px-4 py-2 text-gray-500 hover:scale-105"
                                 >
                                     {page}
                                 </a>
@@ -202,7 +202,7 @@ const filters = ["Design", "Product", "Software Engineering", "Customer Success"
 
                         <a
                             href="#"
-                            className="mx-1 flex items-center rounded-md border border-gray-400 px-4 py-2 text-gray-500 hover:scale-105 dark:border-gray-800 dark:text-gray-400"
+                            className="mx-1 flex items-center rounded-md border border-gray-400 px-4 py-2 text-gray-500 hover:scale-105"
                         >
                             <ArrowRightIcon className="h-5 w-5" />
                         </a>
