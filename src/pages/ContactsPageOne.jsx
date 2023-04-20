@@ -97,7 +97,7 @@ export const ContactsPageOne = () => {
         </div>
         {/*  */}
       </div>
-      {/* footer */}
+
     </div>
   )
 }
