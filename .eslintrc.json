@@ -1,0 +1,61 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:json/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        //eslint-rules
+        "one-var": ["error","always"],
+        "quotes": ["error","double"],
+        "camelcase": "off",
+        "comma-dangle": ["error", "never"],
+        "indent": ["error", 4],
+        "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
+        "no-param-reassign": [2, { "props": false }],
+        //eslint-plugin-react rules
+        "react/sort-comp": 2,
+        "react/prop-types": [0],
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-no-bind": ["off", {"allowFunctions": true}],
+        "react/no-did-update-set-state": "off",
+        "react/jsx-indent" : ["error", 4],
+        "react/no-unescaped-entities": "error",
+        "react/jsx-indent-props" : ["error", 4],
+        "react/destructuring-assignment": [0, "always"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        //eslint-plugin-import rules
+        "import/no-duplicates": "error",
+        "import/order": ["error", {"newlines-between": "never", "groups": ["builtin", "external", "parent", "sibling", "index"]}],
+        "import/no-extraneous-dependencies": "off",
+        "react/function-component-definition": [2, {
+            "namedComponents": ["arrow-function", "function-declaration"],
+            "unnamedComponents": ["function-expression", "arrow-function"]
+        }],
+        "function-paren-newline": "off",
+        "react/no-unstable-nested-components": "off",
+        "react/jsx-no-useless-fragment": "off",
+        "default-param-last": "off",
+        "prefer-regex-literals": "off",
+        "import/no-unresolved": [
+            2, 
+            { "caseSensitive": false }
+         ]
+    }
+}
